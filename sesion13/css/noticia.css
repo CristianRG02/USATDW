@@ -1,0 +1,22 @@
+#Titulo{
+    font-size: 40px;
+    text-align: center;
+    background-color: red;
+    padding: 30px;
+    color: white;
+}
+
+#s{
+color: red;
+font-size: 20px;
+}
+.parrafo1{
+    
+}
+.parrafo2{
+    background-color:red;
+    float: right;
+}
+img{
+    float: right;
+}
