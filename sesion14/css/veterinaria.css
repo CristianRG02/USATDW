@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: "header header header" "nav section aside" "footer footer footer";
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 150px 350px 80px;
+    grid-template-rows: 150px 300px 80px;
 }
 
 header{
@@ -11,17 +11,64 @@ header{
 
 }
 
+.titulo1,.titulo2{
+    margin: 0px;
+
+}
+
+.titulo1{
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #808080
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: red
+}
+
+.Encabezado_Derecha{
+    width: 50%;
+    float: right;
+    
+}
+
+.Encabezado_Izquierda{
+    width: 50%;
+    float: left;
+}
+
 nav{
     grid-area: nav;
     background-color: #808080;
     color:#c5c5c5
-    list-style: none;
+}
 
+.p{
+
+    float:left;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+}
+
+.a{
+    list-style: none;
+    margin: 10px;
+}
+
+.z{
+    background-color: white;
+    
 }
 
 section{
     grid-area: section;
     background-color:#400040;
+    padding: 10px;
 }
 
 aside{
@@ -34,5 +81,11 @@ footer{
     grid-area: footer;
     background-color:#ff66b3;
     text-align: center;
-    color:white
+    color:white;
+    padding: 20px
+    
+}
+
+.pie {
+    margin: 0px
 }
