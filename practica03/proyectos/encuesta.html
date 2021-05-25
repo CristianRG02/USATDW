@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ccsencuesta.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <title>Encuesta</title>
+</head>
+<body>
+
+    <div class="body">
+<div class="imgO"><img src="../img/206982.png" alt="" ></div>
+<div id="Contenedor">
+<div class="head">
+
+<h2 class="titulo">ENCUESTA DE CINE: NOMINADAS AL OSCAR 2018</h2>
+
+</div>
+<form id="formulario1" name="formulario1" method="post" action="data.php">
+<fieldset id="datos_personales">
+<legend>Datos Personales</legend>
+<label for="nombres" class="t1">Nombres</label>
+<input type="text" name="nombre" id="nombre"><br><br>
+<label for="apellidos" class="t2">Apellidos</label>
+<input type="text" name="apellidos" id="apellidos"><br><br>
+<label for="dni" class="t3">DNI</label>
+<input type="text" name="dni" id="dni" maxlength="8"><br><br>
+
+<label for="edad" class="t4">Edad</label>
+<input type="text" name="edad" id="edad" size="2" maxlength="2"><br><br>
+
+<label for="sexo" class="t5">Sexo</label>
+<select name="sexo" id="sexo">
+    <option>Masculino</option>
+    <option>Femenino</option>
+</select>
+</fieldset>
+
+<fieldset id="mejor_pelicula">
+    <legend>Mejor Pelicula</legend>
+    <input type="radio" name="pelicula" value="11"> Call Me by Your Nambe<br>
+    <input type="radio" name="pelicula" value="22"> Dunkerque<br>
+    <input type="radio" name="pelicula" value="33"> Déjame salir<br>
+</fieldset>
+
+<fieldset id="no_vistos_pelicula">
+    <legend>Selecciona las películas que no hayas visto</legend>
+    <input type="checkbox" name="pelicula" value="11"> Call Me by Your Nambe <br>
+    <input type="checkbox" name="pelicula" value="22"> Dunkerque<br>
+    <input type="checkbox" name="pelicula" value="33"> Déjame salir<br>
+    <input type="checkbox" name="pelicula" value="44"> Pixels <br>
+</fieldset>
+
+<fieldset id="grupo_argumento">
+<legend>Argumento de tu película preferida</legend>
+<textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+</fieldset>
+<br>
+<input type="reset" value="Borrar Formulario"><input type="submit" value="Enviar">
+</form> <br>
+<a href="../proyectos.html" class="regresar">regresar</a>
+</div>
+<div class="imgO"><img src="../img/206982.png" alt="" ></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    clear: left;
+}
+
+body{
+    border: 1px solid black
+}
+
+#Contenedor{
+    grid-template-columns: 100%;
+}
+
+.body{
+    margin: 0px;
+    
+    font-family: 'Tajawal', sans-serif;
+    display: grid;
+    grid-template-columns: 30% auto 1fr;
+    border: 1px solid black
+    
+}
+
+.imgO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo{
+    text-align: center;
+    margin-left:10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#datos_personales,#mejor_pelicula,#no_vistos_pelicula,#grupo_argumento{
+    background-color: #d6e3fe;
+}
+
+.t1,.t2,.t3,.t4,.t5{
+  width: 20%;
+  float: left;
+}
+
+#datos_personales{
+    padding: 1.5%;
+}
+
+.regresar{
+    color: black;
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.regresar:hover{
+    color: #5170ff;
+}

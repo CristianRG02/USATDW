@@ -1,0 +1,81 @@
+#Titulo{
+    font-size: 50px;
+    text-align: center;
+    background-color: red;
+    padding: 24px;
+    color: white;
+    margin: 0px;
+}
+
+#s{
+color: red;
+font-size: 20px;
+clear: left;
+font-family: 'Tajawal', sans-serif;
+
+}
+
+.parrafo2{
+    background-color:red;
+    float: right;
+    color: white;
+    padding: 0.1% 2%;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.sub{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0px;
+}
+
+.parrafo1{
+    text-align: justify;
+    font-family: 'Tajawal', sans-serif;
+}
+
+img{
+    float: right;
+    margin: 16px;
+}
+
+li:nth-child(1){
+    margin-left: 30px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #6c6c6c;
+    overflow: hidden;
+    font-family: 'Tajawal', sans-serif;
+}
+
+li{
+    float:left
+    
+    
+}
+
+li a{
+    clear: left;
+    display: block;
+    padding: 3px 25px;
+    text-decoration: none;
+    margin: 0px;
+    color: white;
+}
+
+.regresar{
+    color: red;
+    font-size: 19px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    
+}
+
+.regresar:hover{
+    color:black
+}

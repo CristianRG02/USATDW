@@ -1,0 +1,162 @@
+.grid{
+    margin: 0px auto;
+    display: grid;
+    
+    grid-template-areas: "header" "nav" "section" "aside" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 7% 35% 28% 10%;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.der{
+    padding: 10px;
+}
+
+.regresar{
+    color: red;
+    font-size: 19px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+}
+
+.regresar:hover{
+    color: black;
+}
+
+.header{
+    grid-area: header;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+
+}
+
+.titulo1,.titulo2{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.titulo1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    color: #808080;
+    
+
+}
+
+.titulo2{
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    color: red;
+    margin: 40px;
+}
+
+.Encabezado_Derecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Encabezado_Izquierda{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 50% 30%;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #808080;
+    color:#c5c5c5
+}
+
+.p{
+
+    float:left;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+}
+
+.a{
+    list-style: none;
+    margin: 10px;
+}
+
+.z{
+    background-color: white;
+    
+}
+
+section{
+    grid-area: section;
+    background-color:#400040;
+    padding: 10px;
+}
+
+aside{
+    grid-area: aside;
+    background-color:#9f0479;
+    color:white
+}
+
+footer{
+    grid-area: footer;
+    background-color:#ff3eff;
+    text-align: center;
+    color:white;
+    padding: 20px
+    
+}
+
+.pie {
+    margin: 0px
+}
+
+
+
+nav>ul>li{
+    float: left;
+}
+
+@media(min-width: 600px) and (max-width: 1000px){
+    .grid{
+        margin: 0px auto;
+        display: grid;
+        grid-template-areas: "header header" "nav nav" "section aside" "footer footer";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 30% 8% 52% 10%;
+    }
+
+    nav>ul>li{
+        float: left;
+    }
+
+    .Encabezado_Derecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+}
+
+@media(min-width: 1001px) {
+    .grid{
+        margin: 0px auto;
+        display: grid;
+        grid-template-areas: "header header header" "nav section aside" "footer footer footer";
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 30% 54% 10%;
+    }
+
+    nav>ul>li{
+        clear: left;
+    }
+} 

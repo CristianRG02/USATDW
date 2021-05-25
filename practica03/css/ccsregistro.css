@@ -1,0 +1,42 @@
+
+#Registro{
+    margin: 30px;
+    background-color: white
+
+}
+
+#formulario1{
+    margin: 5% 30%;
+    
+}
+
+body{
+    background-color: #89b3fe;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.boton{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+}
+
+#btnEnviar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cont{
+    margin-bottom: 15px;
+}
+
+#nombres{
+    margin-right: 30px;
+}
+
+.regresar{
+    color: black;
+    font-size: 17px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    margin-left: 28px;
+}

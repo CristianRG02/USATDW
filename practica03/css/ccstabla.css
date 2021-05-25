@@ -1,0 +1,33 @@
+div{
+    margin: 2% 19%;
+}
+
+div>h1{
+    text-align: center;
+}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+div>h1{
+    text-align: center;
+}
+
+.regresar{
+    color: black;
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.regresar:hover{
+    color: blue;
+}
+
+.r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
