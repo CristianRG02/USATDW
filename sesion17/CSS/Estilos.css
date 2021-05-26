@@ -1,0 +1,14 @@
+
+.datosentrada{
+    background-color: darkgray;
+    padding: 5px;
+    width: 300px;
+
+}
+   
+
+input{
+    display: block;
+    margin: 10px;
+}
+
