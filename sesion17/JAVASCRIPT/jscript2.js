@@ -7,7 +7,7 @@ function guardarDato(){
     actualizarDatos();
 }
 
-function recuperar(){
+function recuperarDato(){
     var nombre=document.getElementById("nombre").value;
     localStorage.getItem(nombre),
     document.getElementById("movil").value = localStorage.getItem(nombre);
@@ -40,4 +40,5 @@ function actualizarDatos(){
     }
     document.getElementById('contactos').innerHTML=registro;
 }
+
 
