@@ -6,7 +6,7 @@
 
 
 #contenedor{
-    width: 360px;
+    width: 460px;
     margin:auto;
     background-color: floralwhite;
     font-family: 'Tajawal', sans-serif;
@@ -18,7 +18,7 @@ header{
 }
 
 span {
-    width: 112px;
+    width: 145px;
     display: block;
     float: left;
     padding-left: 8px;
