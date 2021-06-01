@@ -1,0 +1,44 @@
+
+
+#cont{
+    background-color: #4aa5ff;
+}
+
+
+#contenedor{
+    width: 360px;
+    margin:auto;
+    background-color: floralwhite;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+header{
+    text-align: center;
+}
+
+span {
+    width: 112px;
+    display: block;
+    float: left;
+    padding-left: 8px;
+}
+
+.nom{
+    background-color: #cacaca;
+}
+
+.titu{
+    background-color: #bf0000;
+    color: white;
+}
+
+li{
+    list-style:none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
