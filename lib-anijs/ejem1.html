@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ejem1.css">
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    
+</head>
+<body>
+    <div class="box" 
+     data-anijs="if: click,
+                 do: $toggleClass orange"></div>
+
+<div class="box second" data-anijs="if: click, do: $toggleClass red, to: $children">
+
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+  <span class="circulo"></span>
+</div>
+
+<div class="box" data-anijs="if: click, on: .circulo, do: $toggleClass yellow, to: $parent target; 
+if: click, on: .circulo, do: $toggleClass yellow, to: $parent"></div><br><br>
+
+
+<script src="https://anijs.github.io/lib/anijs/anijs.js"></script>
+  <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom.js"></script>
+</body>
+</html>
+

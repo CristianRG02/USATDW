@@ -1,0 +1,16 @@
+#c1, #c2, #c3{
+    
+    border: 1px solid black;
+}
+
+#c1{
+    background-color: coral;
+}
+
+#c2{
+    background-color: chocolate;
+}
+
+#c3{
+    background-color: cornflowerblue;
+}

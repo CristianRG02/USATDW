@@ -1,0 +1,54 @@
+body {
+    margin: 80px auto;
+    width: 600px;
+    border: 10px solid black;
+    text-align: center;
+    padding: 50px 0;
+    transition: 0.5s all;
+    background: red;
+  }
+  
+  body.yellow {
+    border-radius: 50% 10%/10% 50%;
+    background: yellow;
+  }
+  
+  .box.yellow {
+    border-radius: 50% 10%/10% 50%;
+    background: yellow;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: black;
+    display: inline-block;
+    margin: 10px;
+    transition: 0.5s all;
+  }
+  
+  .orange {
+    background: orange;
+  }
+  
+  .box.second {
+    padding: 50px 20px;
+    border: 2px solid black;
+  }
+  
+  span.circulo {
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 4px;
+    transition: 0.5s all;
+  }
+  
+  span.circulo.red {
+    background: red;
+    border-radius: 0;
+    transform: rotateZ(30deg);
+  }

@@ -1,0 +1,75 @@
+
+body{
+    background-image: url("../img/pacman.png");
+    background-repeat: no-repeat;
+}
+
+div{
+    background: #8e44ad;
+    color: white;
+    padding: .1rem .1rem 0.5rem .1rem;
+    /* padding: .2rem .3rem 1rem .3rem; */
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes animar{
+    0%{
+        left:0;
+        top:0;
+    }
+    10%{
+        left: 5rem;
+        top: 0rem;
+        color: #9b59b6;
+    }
+    20%{
+        top:1.5rem;
+        left:5rem;
+        color: white;
+    }
+    30%{
+        top: 1.5rem;
+        left: 9.5rem;
+        color: #9b59b6;
+    }
+    40%{
+        top:10rem;
+        left:9.5rem;
+        color: white;
+    }
+    50%{
+        top: 10rem;
+        left: 5rem;
+        color: #9b59b6;
+    }
+    60%{
+        top: 8.8rem;
+        left: 5rem;
+        color: white;
+    }
+    70%{
+        top: 8.8rem;
+        left: 2.6rem;
+        color: #9b59b6;
+    }
+    80%{
+        top: 2rem;
+        left: 2.6rem;
+        color: white;
+    }
+    90%{
+        top: 2rem;
+        left: 0;
+        color: #9b59b6;
+    }
+    100%{
+        top:0;
+        left:0;
+    }
+}
