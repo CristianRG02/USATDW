@@ -1,0 +1,39 @@
+/*
+.grid{
+    display: grid;
+    grid-template-areas: "my-header my-header my-header" "my-nav my-section my-aside" "my-footer my-footer my-footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 400px 200px;
+}
+*/
+#prin{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-width: 100vh;
+}
+
+header{
+   
+    background-color: blue;
+}
+
+nav{
+    
+    background-color: green;
+}
+
+section{
+    
+    background-color: red;
+}
+
+aside{
+    
+    background-color: orange;
+}
+
+footer{
+    
+    background-color: yellow;
+}
+
