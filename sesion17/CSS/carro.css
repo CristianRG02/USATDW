@@ -16,9 +16,19 @@
 }
 
 #espacio{
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 #comprar{
     margin-left: 55%;
+}
+
+#t{
+    background-color: #969696;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#t-1{
+    padding: 10px 10px 10px 15px;
+    color: white;
 }

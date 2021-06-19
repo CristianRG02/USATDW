@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/EstilosV3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="contenedor">
+
+        <div id="cont">
+
+        <header>
+            <h3>Mi Agenda de contactos</h3>
+            <hr>
+        </header>
+
+        <form>
+            <span>Nombre:</span>
+            <input type="text" id="nombre" placeholder="Nombre"><br><br>
+            <span>Num Celular:</span>
+            <input type="text" id="movil" placeholder="Numero celular"> <br><br>
+            <span>Email:</span>
+            <input type="text" id="email" placeholder="Email">
+        </form>
+
+        <hr />
+
+        <div>
+            <button type="button" onclick="guardarDatos()"> Guardar</button>
+            <button type="button" onclick="recuperarDato()"> Recuperar</button>
+            <button type="button" onclick="eliminarDato()"> Eliminar</button>
+            <button type="button" onclick="eliminarTodo()"> Eliminar Todos</button>
+        </div>
+
+        <hr>
+    </div>
+
+        <span class="titu">Nombre</span> <span class="titu">Celular</span> <span class="titu">Email</span> <br>
+        <ul id="contactos"></ul>
+    
+    </div>
+
+
+   
+
+
+
+    <script src="js/jscript3.js"></script>
+    
+</body>
+</html>

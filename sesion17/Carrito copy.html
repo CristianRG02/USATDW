@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/carro.css">
+    <title>Carro de Compras</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row" style="height: 6em;">
+            <div class="col d-flex justify-content-center align-items-center" id="titulo" >
+                <h1>TIENDA DE VIDEOJUEGOS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title text-center">Half Life 2 - EP2</h3>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="item-image img-fluid " src="img/h1.jpg">
+                            </div>
+
+                            
+                            <div class="item-details">
+                                <h4 class="item-price text-center">S/50.00</h4>
+                                <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-sm-4">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title text-center">HL - Blue Shift</h3>
+
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="item-image img-fluid" src="img/h2.jpg">
+                            </div>
+                            <div class="item-details">
+                                <h4 class="item-price text-center">S/70.00</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-sm-4">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title text-center">RE - Biozahard</h3>
+  
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="item-image img-fluid" src="img/h3.jpg">
+                            </div>
+                            <div class="item-details">
+                                <h4 class="item-price text-center">S/110.00</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title text-center">RE - Village</h3>
+
+                            
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="item-image img-fluid" src="img/h4.png">
+                            </div>
+                            <div class="item-details">
+                                
+                                <h4 class="item-price text-center">S/180.00</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title text-center">Minecraft</h3>
+
+                            
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="item-image img-fluid" src="img/h5.png">
+                            </div>
+                            <div class="item-details">
+                                <h4 class="item-price text-center">S/50.00</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title text-center">Little Nigthmare</h3>
+
+                            
+                            <div class="d-flex justify-content-center align-items-center">
+                                <img class="item-image img-fluid" src="img/h6.jpg">
+                            </div>
+                            <div class="item-details">
+                                <h4 class="item-price text-center">S/30.00</h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border col-md-5">
+                <div class="container">
+                    <div id="t">
+                    <h3 class="text-left" id="t-1">Carrito de compra</h3></div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="shopping-cart-header">
+                                <h6>Producto</h6>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="shopping-cart-header">
+                                <h6 class="text-truncate">Precio</h6>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="shopping-cart-header">
+                                <h6>Cantidad</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12" id="t">
+                            <div class="shopping-cart-total d-flex align-items-center">
+                                <p class="mb-0">Total</p>
+                                <p class="ml-4 mb-0 shoppingCartTotal" id="espacio">S/0.0</p> 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JAVASCRIPT/carro.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
